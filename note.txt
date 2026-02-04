@@ -1,0 +1,41 @@
+Root Finding Method --->
+              1.Fixed Point iteration
+                   x=g(x)
+                       --> x=0.5 for algebric
+                       --> x=3.2 for Transcendral
+
+              2.Bisection Method
+                    root,c=(a+b)/c
+
+              3.Regular Falsi Method
+                    root,c=(a*f(b)-b*f(a))/(f(b)-f(a))
+
+              4.Newton Raphson Method
+                    x(n+1)=xn-(f(xn)-f'(xn))
+
+Equation Solving Method ---->
+              1.Crammer Rule 
+                   --> only for square matrix
+
+              2.Gauss Elimination
+                   --> Needed back tracktion
+
+              3.Gauss Jordan Elimination
+                  --> No need back tracktion
+
+Ordinary Differential Equation--->
+              1. Euler's Method
+                   --> y(n+1)=y(n)+h*f(xn,yn)
+
+
+Integration Method-->
+              1.Trapizoidal Rule
+                    --> h/2*f(a)+f(b)
+
+              2.Simpon's 1/3rd Rule 
+                     --> h/3 * { (y0+yn) + 4(y1+y3+y5) + 2(y2+y4) }
+
+              3.Simpon's 3/8th Rule 
+                     -->3h/3 * { (y0+yn) + 3(y1+y2+y4+y5) + 2(y3) }
+
+                     
